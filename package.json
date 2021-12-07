@@ -4,9 +4,17 @@
   "description": "Nodemailer wrapper helper.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "Bob McAleavey <bobmcaleavey@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "nodemailer": "^6.7.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
 }
